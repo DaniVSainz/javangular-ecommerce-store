@@ -5,21 +5,29 @@ import { HttpModule } from '@angular/http';
 import {MaterialModule} from '@angular/material';
 import {MdIconModule} from '@angular/material';
 
+
+
+import { trigger, style, transition, animate, group } from '@angular/animations';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 import "hammerjs";
 
 
 import { AppComponent } from './app.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     MaterialModule,
-    MdIconModule
+    MdIconModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
