@@ -1,0 +1,12 @@
+package com.bookstore.domain;
+
+@Entity
+public class User implements UserDetails, Serializable {
+	
+	private static final long serialVersionUID = 24735734764L;
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Column(name="Id", nullable=false, updatable=false)
+	private Long id;
+}
