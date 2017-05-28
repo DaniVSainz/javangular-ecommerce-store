@@ -548,3 +548,15 @@ java.net.UnknownHostException: marketplace.eclipse.org
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-28 18:30:55.558
 !MESSAGE The POM for org.springframework:spring-core:jar:1.4.2.RELEASE is missing, no dependency information available
+
+!ENTRY org.eclipse.jface.text 2 0 2017-05-28 18:41:45.002
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-05-28 18:41:45.002
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-05-28 18:45:19.355
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-05-28 18:45:19.356
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
