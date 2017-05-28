@@ -38,8 +38,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		.antMatchers(PUBLIC_MATCHERS).permitAll().anyRequest().authenticated();
 	}
 	
-	@Autowired
+	@AutoWired
 	public void configureGlobal(AuthenticationManagerBuilder auth)throws Exception {
-		auth.userDetailsService(userSecurityService).passwordEncoder(passwordEncoder());
+		auth.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder());
 	}
 }

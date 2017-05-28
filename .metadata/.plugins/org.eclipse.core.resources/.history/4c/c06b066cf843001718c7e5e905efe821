@@ -1,0 +1,10 @@
+package com.bookstore.service;
+
+import org.slf4j.LoggerFactory;
+
+@Service
+public class UserSecurityService implements UserDetailsService {
+	
+	private static final Logger LOG = LoggerFactory.getLogger(UserSecurityService.class)
+
+}
