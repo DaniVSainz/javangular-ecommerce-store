@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 import {MaterialModule} from '@angular/material';
 import {MdIconModule} from '@angular/material';
 
-
+import {LoginService } from './service/login.service';
 
 import { trigger, style, transition, animate, group } from '@angular/animations';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -31,7 +31,7 @@ import { LoginComponent } from './components/login/login.component';
     MdIconModule,
     BrowserAnimationsModule,
   ],
-  providers: [],
+  providers: [LoginService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
