@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import {MaterialModule} from '@angular/material';
 import {MdIconModule} from '@angular/material';
+import {routing} from './app.routing';
 
 import {LoginService } from './service/login.service';
 
@@ -30,6 +31,7 @@ import { LoginComponent } from './components/login/login.component';
     MaterialModule,
     MdIconModule,
     BrowserAnimationsModule,
+    routing
   ],
   providers: [LoginService],
   bootstrap: [AppComponent]
