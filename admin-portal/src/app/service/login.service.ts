@@ -16,7 +16,7 @@ export class LoginService {
       'Authorization' : basicHeader
     });
 
-    return this.http.get(url, {headers: headers})
+    return this.http.get(url, {headers: headers});
   }
 
 }
