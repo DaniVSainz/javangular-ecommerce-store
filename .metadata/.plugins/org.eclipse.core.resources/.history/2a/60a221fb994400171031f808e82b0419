@@ -1,0 +1,11 @@
+package com.bookstore.config;
+
+@EnabledRedisHttpSession
+public class HttpSession {
+	
+	@Bean
+	public LettuceConnectionFactory connectionFactory(){
+		return new LetuceConnectionFactory();
+	}
+
+}
