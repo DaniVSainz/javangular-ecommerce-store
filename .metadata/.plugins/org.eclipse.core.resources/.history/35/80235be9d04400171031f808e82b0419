@@ -34,6 +34,6 @@ public class LoginResource {
 	
 	@RequestMapping("/checkSession")
 	public ResponseEntity checkSession(){
-		return new ResponseEntity("Session Active!", HttpStatus.OK);
+		return new ResponseEntity("Session Active!", HttpStatus.OK)
 	}
 }
