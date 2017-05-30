@@ -8,23 +8,23 @@ import {LoginService} from '../../service/login.service';
 })
 export class LoginComponent implements OnInit {
 
-  private credential = {'username':'','password':'' };
+  private credential = {'username':'', 'password' : ''};
   private loggedIn = false;
 
   constructor(private loginService: LoginService) { }
 
-  onSubmit(){
-    this.loginService.sendCredential(this.credential.username,this.credential.password).subscribe(
-      res => {
-        console.log(res);
-        localStorage.setItem("xAuthToken", res.json().token);
-        this.loggedIn=true;
-        location.reload();
-      },
-      error =>{
-        console.log(error);
-      }
-    );
+  onSubmit() {
+  	this.loginService.sendCredential(this.credential.username, this.credential.password).subscribe(
+  		res => {
+  			console.log(res);
+  			localStorage.setItem("xAuthToken", res.json().token);
+  			this.loggedIn = true;
+  			// location.reload();
+  		},
+  		error => {
+  			console.log(error);
+  		}
+  	);
   }
 
   ngOnInit() {

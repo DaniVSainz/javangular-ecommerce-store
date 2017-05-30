@@ -1061,3 +1061,53 @@
 2017-05-29 15:19:03,351 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-05-29 15:19:03,353 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-05-29 15:19:03,353 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dani/mega/javangular-bookstore/bookstore-angular/src/test/resources
+2017-05-29 19:51:13,782 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 19:51:13,784 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-29 19:51:13,785 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-29 19:51:13,787 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 19:51:13,787 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dani/mega/javangular-bookstore/bookstore-angular/src/test/resources
+2017-05-29 19:51:58,253 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 19:51:58,253 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-29 19:51:58,253 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-29 19:51:58,254 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 19:51:58,254 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dani/mega/javangular-bookstore/bookstore-angular/src/test/resources
+2017-05-29 19:52:09,828 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 19:52:09,829 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-29 19:52:09,829 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-29 19:52:09,831 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 19:52:09,831 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dani/mega/javangular-bookstore/bookstore-angular/src/test/resources
+2017-05-29 19:53:09,004 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 19:53:09,004 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-29 19:53:09,004 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-29 19:53:09,005 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 19:53:09,005 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dani/mega/javangular-bookstore/bookstore-angular/src/test/resources
+2017-05-29 19:54:00,805 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 19:54:00,805 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-29 19:54:00,806 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-29 19:54:00,807 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 19:54:00,807 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dani/mega/javangular-bookstore/bookstore-angular/src/test/resources
+2017-05-29 19:54:32,771 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 19:54:32,771 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-29 19:54:32,773 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-29 19:54:32,774 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 19:54:32,774 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dani/mega/javangular-bookstore/bookstore-angular/src/test/resources
+2017-05-29 19:56:22,004 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 19:56:22,005 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-29 19:56:22,006 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-29 19:56:22,007 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 19:56:22,007 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dani/mega/javangular-bookstore/bookstore-angular/src/test/resources
+2017-05-29 19:57:33,485 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 19:57:33,485 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-29 19:57:33,486 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-29 19:57:33,489 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 19:57:33,490 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dani/mega/javangular-bookstore/bookstore-angular/src/test/resources
+2017-05-29 19:57:40,664 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 19:57:40,664 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-29 19:57:40,665 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-29 19:57:40,666 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 19:57:40,666 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dani/mega/javangular-bookstore/bookstore-angular/src/test/resources
+2017-05-29 20:06:12,797 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 20:06:12,798 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-29 20:06:12,798 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-29 20:06:12,800 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 20:06:12,800 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dani/mega/javangular-bookstore/bookstore-angular/src/test/resources

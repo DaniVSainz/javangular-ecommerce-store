@@ -1,0 +1,7 @@
+package com.bookstore.resource;
+
+@RestController
+public class LoginResource {
+	@Autowired
+	private UserService userService;
+}

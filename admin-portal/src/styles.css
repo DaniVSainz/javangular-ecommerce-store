@@ -48,3 +48,7 @@ md-slide-toggle {
 .primary {
   color: white;
 }
+
+.login-button {
+  float: right;
+}
