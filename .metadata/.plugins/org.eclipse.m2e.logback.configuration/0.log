@@ -1146,3 +1146,9 @@
 2017-05-29 21:06:24,411 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-05-29 21:06:24,412 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-05-29 21:06:24,412 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dani/mega/javangular-bookstore/bookstore-angular/src/test/resources
+2017-05-31 11:50:50,668 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bookstore:bookstore:0.0.1-SNAPSHOT @ /home/dani/mega/javangular-bookstore/bookstore-angular/pom.xml.
+2017-05-31 11:50:51,264 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:50:51,267 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-05-31 11:50:51,278 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-31 11:50:51,281 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-31 11:50:51,281 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dani/mega/javangular-bookstore/bookstore-angular/src/test/resources
