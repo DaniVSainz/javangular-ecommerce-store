@@ -14,7 +14,7 @@ const appRoutes: Routes = [
     component: LoginComponent
   },
   {
-    path: 'addbook',
+    path: 'addnewbook',
     component: AddNewBookComponent
   }
 ];
