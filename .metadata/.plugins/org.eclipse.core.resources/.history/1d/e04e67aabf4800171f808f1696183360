@@ -1,0 +1,7 @@
+package com.bookstore.domain;
+
+@Entity
+public class Book implements Serializable{
+	priavte static final long serialVersionUID = 1412345L;
+
+}

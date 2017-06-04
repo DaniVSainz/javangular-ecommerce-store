@@ -1,0 +1,9 @@
+package com.bookstore.service.impl;
+
+@Service
+public class BookServiceImpl {
+	
+	@Autowired
+	private BookRepository bookRepository;
+
+}
