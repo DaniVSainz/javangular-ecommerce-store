@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Book } from '../../models/book';
+import {AddBookService} from '../../service/add-book.service';
 
 @Component({
   selector: 'app-add-new-book',
@@ -10,9 +11,25 @@ export class AddNewBookComponent implements OnInit {
   private newBook: Book = new Book();
   private bookAdded: boolean;
 
-  constructor() { }
+  constructor(private addBookService: AddBookService) { }
 
   ngOnInit() {
+    this.bookAdded = false;
+    this.newBook.active = true;
+    this.newBook.category = "Management";
+    this.newBook.language = "english";
+    this.newBook.format = "paperback";
+  }
+
+  onSubmit(){
+    this.addBookService.sendBook(this.newBook).subscribe(
+      res => {
+
+      },
+      error => {
+        console.log(error)
+      }
+    )
   }
 
 }

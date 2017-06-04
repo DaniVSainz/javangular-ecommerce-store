@@ -7,6 +7,7 @@ import {MdIconModule} from '@angular/material';
 import {routing} from './app.routing';
 
 import {LoginService } from './service/login.service';
+import {AddBookService} from './service/add-book.service';
 
 import { trigger, style, transition, animate, group } from '@angular/animations';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -35,7 +36,7 @@ import { AddNewBookComponent } from './components/add-new-book/add-new-book.comp
     BrowserAnimationsModule,
     routing
   ],
-  providers: [LoginService],
+  providers: [LoginService,AddBookService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
