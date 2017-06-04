@@ -8,34 +8,34 @@ import {AddBookService} from '../../service/add-book.service';
   styleUrls: ['./add-new-book.component.css']
 })
 export class AddNewBookComponent implements OnInit {
+
   private newBook: Book = new Book();
   private bookAdded: boolean;
 
-  constructor(private addBookService: AddBookService) { }
+  constructor(private addBookService:AddBookService) { }
 
-  ngOnInit() {
-    this.bookAdded = false;
-    this.newBook.active = true;
-    this.newBook.category = "Management";
-    this.newBook.language = "english";
-    this.newBook.format = "paperback";
+  onSubmit() {
+  	this.addBookService.sendBook(this.newBook).subscribe(
+  		res => {
+  			this.bookAdded=true;
+  			this.newBook = new Book();
+  			this.newBook.active=true;
+  			this.newBook.category="Management";
+  			this.newBook.language="english";
+  			this.newBook.format="paperback";
+  		},
+  		error => {
+  			console.log(error);
+  		}
+  	);
   }
 
-  onSubmit(){
-    this.addBookService.sendBook(this.newBook).subscribe(
-      res => {
-            this.bookAdded = true;
-            this.newBook = new Book();
-            this.newBook.active = true;
-            this.newBook.category = "Management";
-            this.newBook.language = "english";
-            this.newBook.format = "paperback";
-
-      },
-      error => {
-        console.log(error);
-      }
-    )
+  ngOnInit() {
+  	this.bookAdded=false;
+  	this.newBook.active=true;
+  	this.newBook.category="Management";
+  	this.newBook.language="english";
+  	this.newBook.format="paperback";
   }
 
 }
