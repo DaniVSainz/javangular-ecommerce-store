@@ -8,6 +8,7 @@ import {routing} from './app.routing';
 
 import {LoginService } from './service/login.service';
 import {AddBookService} from './service/add-book.service';
+import {UploadImageService} from './service/upload-image.service';
 
 import { trigger, style, transition, animate, group } from '@angular/animations';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -36,7 +37,7 @@ import { AddNewBookComponent } from './components/add-new-book/add-new-book.comp
     BrowserAnimationsModule,
     routing
   ],
-  providers: [LoginService,AddBookService],
+  providers: [LoginService,AddBookService,UploadImageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
